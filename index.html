@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>上理日历 · 上海理工大学 2026—2027 学年</title>
+  <meta name="description" content="上海理工大学 2026—2027 学年日历：当日事宜提醒、官方放假标注（含假期内周末）、校园考试与活动。">
+  <meta name="theme-color" content="#D6402B">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="上理日历">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="#">
+        <span class="brand-seal">理</span>
+        <span class="brand-text">
+          <strong>上理日历</strong>
+          <em>USST&nbsp;CAL&nbsp;2026—2027</em>
+        </span>
+      </a>
+      <div class="masthead-meta">
+        <span class="meta-chip" id="meta-today"></span>
+        <span class="meta-chip" id="sync-status" title="每日自动检查官网与公众号新事件">同步中…</span>
+        <button class="btn btn-ghost btn-sm" id="btn-sync" type="button">检查更新</button>
+        <button class="btn btn-ink" id="btn-notify" type="button">开启提醒</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="today-strip" id="today-strip" aria-label="今日概览"></section>
+
+    <div class="layout">
+      <section class="panel panel-calendar" aria-label="月历">
+        <div class="cal-head">
+          <button class="btn btn-ghost" id="cal-prev" type="button" aria-label="上个月">‹</button>
+          <h2 class="cal-title" id="cal-title"></h2>
+          <button class="btn btn-ghost" id="cal-next" type="button" aria-label="下个月">›</button>
+          <button class="btn btn-ghost cal-today" id="cal-jump" type="button">回到今天</button>
+        </div>
+        <div class="cal-grid" id="cal-grid"></div>
+        <div class="cal-legend">
+          <span><i class="lg lg-holiday"></i>放假（工作日）</span>
+          <span><i class="lg lg-classday"></i>调休补课</span>
+          <span><i class="lg lg-exam"></i>考试</span>
+          <span><i class="lg lg-activity"></i>活动/通知</span>
+          <span><i class="lg lg-personal"></i>个人事项</span>
+          <span><i class="lg lg-weekend"></i>普通周末</span>
+        </div>
+      </section>
+
+      <aside class="side">
+        <section class="panel panel-day" id="panel-day" aria-label="当日事宜"></section>
+        <section class="panel panel-upcoming">
+          <h3 class="panel-title">接下来 5 件事</h3>
+          <ul class="upcoming-list" id="upcoming-list"></ul>
+        </section>
+      </aside>
+    </div>
+
+    <section class="panel panel-scale">
+      <div class="scale-head">
+        <h3 class="panel-title">放假刻度尺 · 2026.09 — 2027.08</h3>
+        <p class="scale-note">一格一天：红色=放假（含假期内的周六、周日）；黄色=调休补课；深灰=普通周末；米白=普通工作日。悬停看日期。</p>
+      </div>
+      <div class="scale-rows" id="scale-rows"></div>
+    </section>
+
+    <section class="panel panel-terms">
+      <h3 class="panel-title">2026—2027 学年教学安排</h3>
+      <div class="term-blocks" id="term-blocks"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <h3>数据来源</h3>
+      <ul class="source-list" id="source-list"></ul>
+      <p class="disclaimer">
+        放假与活动以学校最新通知为准；2027 年节假日安排以国务院办公厅届时发布的通知为准；
+        标注为“预计”的考试与报名时间以官方公告为准。本站为非官方个人工具站，仅供师生参考。
+      </p>
+    </div>
+  </footer>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <noscript><p class="noscript">上理日历需要启用 JavaScript 才能使用。</p></noscript>
+
+  <script src="js/calendar-data.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="js/live-events.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

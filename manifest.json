@@ -1,0 +1,30 @@
+{
+  "name": "上理日历 · 上海理工大学 2026-2027 学年",
+  "short_name": "上理日历",
+  "description": "上海理工大学校园日历（非官方个人工具）：当日事宜、官方放假标注与校园活动，每日自动更新。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF1E0",
+  "theme_color": "#D6402B",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
