@@ -1,6 +1,6 @@
 /* 由 tools/update-events.js 自动生成，请勿手改 */
 window.USST_LIVE_EVENTS = {
-  "checkedAt": "2026-08-26T02:08:41.203Z",
+  "checkedAt": "2026-08-27T10:06:35.930Z",
   "events": [
     {
       "id": "live-2026-08-19-上海理工大学推荐参加第十五届-挑战杯-中国大学生创业计划竞赛东北振兴产业升级专项赛作品公示-官网通知公告",
@@ -24,6 +24,18 @@ window.USST_LIVE_EVENTS = {
       "source": "官网通知公告 · 自动抓取",
       "url": "https://www.usst.edu.cn/2026/0817/c954a69867/page.htm",
       "desc": "各位老师和同学：为推进学科国际化建设与高水平科研成果产出，提...",
+      "live": true
+    },
+    {
+      "id": "live-2026-08-25-关于2026年度上海科技青年35人引领计划申报的通知-官网通知公告",
+      "date": "2026-08-25",
+      "title": "关于2026年度上海科技青年35人引领计划申报的通知",
+      "time": "全天",
+      "type": "deadline",
+      "org": "学校办公室",
+      "source": "官网通知公告 · 自动抓取",
+      "url": "https://www.usst.edu.cn/2026/0825/c956a69946/page.htm",
+      "desc": "各学院（部）： 2026上海科技青年35人引领计划（上海科技3...",
       "live": true
     }
   ]
