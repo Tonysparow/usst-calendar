@@ -1,6 +1,6 @@
 /* 由 tools/update-events.js 自动生成，请勿手改 */
 window.USST_LIVE_EVENTS = {
-  "checkedAt": "2026-08-29T07:15:34.574Z",
+  "checkedAt": "2026-08-30T05:39:14.319Z",
   "events": [
     {
       "id": "live-2026-08-19-上海理工大学推荐参加第十五届-挑战杯-中国大学生创业计划竞赛东北振兴产业升级专项赛作品公示-官网通知公告",
