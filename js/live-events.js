@@ -1,6 +1,6 @@
 /* 由 tools/update-events.js 自动生成，请勿手改 */
 window.USST_LIVE_EVENTS = {
-  "checkedAt": "2026-09-13T05:10:05.452Z",
+  "checkedAt": "2026-09-14T05:16:33.787Z",
   "events": [
     {
       "id": "live-2026-08-19-上海理工大学推荐参加第十五届-挑战杯-中国大学生创业计划竞赛东北振兴产业升级专项赛作品公示-官网通知公告",
@@ -167,6 +167,18 @@ window.USST_LIVE_EVENTS = {
       "org": "学校办公室",
       "source": "官网通知公告 · 自动抓取",
       "url": "https://www.usst.edu.cn/2026/0910/c954a70062/page.htm",
+      "desc": "详情见来源链接。",
+      "live": true
+    },
+    {
+      "id": "live-2026-09-12-上海理工大学2026级本科生迎新公告-官网通知公告",
+      "date": "2026-09-12",
+      "title": "上海理工大学2026级本科生迎新公告",
+      "time": "全天",
+      "type": "activity",
+      "org": "学校办公室",
+      "source": "官网通知公告 · 自动抓取",
+      "url": "https://www.usst.edu.cn/2026/0912/c954a70092/page.htm",
       "desc": "详情见来源链接。",
       "live": true
     }
