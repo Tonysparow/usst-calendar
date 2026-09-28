@@ -1,6 +1,6 @@
 /* 由 tools/update-events.js 自动生成，请勿手改 */
 window.USST_LIVE_EVENTS = {
-  "checkedAt": "2026-09-27T05:33:28.292Z",
+  "checkedAt": "2026-09-28T05:42:13.582Z",
   "events": [
     {
       "id": "live-2026-08-19-上海理工大学推荐参加第十五届-挑战杯-中国大学生创业计划竞赛东北振兴产业升级专项赛作品公示-官网通知公告",
@@ -336,6 +336,18 @@ window.USST_LIVE_EVENTS = {
       "source": "官网通知公告 · 自动抓取",
       "url": "https://jwc.usst.edu.cn/2026/0914/c10494a370407/page.htm",
       "desc": "详情见来源链接。",
+      "live": true
+    },
+    {
+      "id": "live-2026-09-23-关于2026-2027学年第一学期辅修专业退选-缴费相关事宜的通知-教务处教学运行管理",
+      "date": "2026-09-23",
+      "title": "关于2026-2027学年第一学期辅修专业退选、缴费相关事宜的通知",
+      "time": "全天",
+      "type": "deadline",
+      "org": "教务处",
+      "source": "教务处教学运行管理 · 自动抓取",
+      "url": "http://jwc.usst.edu.cn/2026/0923/c10239a371024/page.htm",
+      "desc": "Normal07.8 磅02falsefalsefalseEN-USZH-CNX-NONE2026-2027-1学期辅修专业退选、学费缴纳等相关工作即将开始，具体安排如下：一、辅修专业退选辅修专业可在9月23日-10月9日期间申请退选，逾期",
       "live": true
     }
   ]
